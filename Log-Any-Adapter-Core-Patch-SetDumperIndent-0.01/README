@@ -1,0 +1,31 @@
+NAME
+    Log::Any::Adapter::Core::Patch::SetDumperIndent - Set Data::Dumper
+    indent
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+     use Log::Any '$log';
+     use Log::Any::DI1; # shortcut for use Log::Any::Adapter::Core::Patch::SetDumperIndent -indent => 1;
+
+     $log->debug("See this data structure: %s", $some_data);
+
+DESCRIPTION
+    Log::Any dumps data structures using Data::Dumper with settings:
+    Indent=0. This is rather hard to read. This patch allows you to set the
+    indent level easily.
+
+FAQ
+SEE ALSO
+    Log::Any::Adapter::Core::Patch::UseDataDump
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

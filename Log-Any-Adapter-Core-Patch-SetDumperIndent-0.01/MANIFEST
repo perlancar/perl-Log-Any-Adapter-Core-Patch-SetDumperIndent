@@ -1,0 +1,17 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+META.json
+META.yml
+README
+dist.ini
+lib/Log/Any/Adapter/Core/Patch/SetDumperIndent.pm
+lib/Log/Any/DI1.pm
+lib/Log/Any/DI2.pm
+lib/Log/Any/DI3.pm
+t/00-compile.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
+t/release-rinci.t
