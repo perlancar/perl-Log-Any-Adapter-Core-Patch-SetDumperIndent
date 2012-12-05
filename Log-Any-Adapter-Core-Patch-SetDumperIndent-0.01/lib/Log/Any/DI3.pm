@@ -1,4 +1,4 @@
-package Log::Any::DI1;
+package Log::Any::DI3;
 use Log::Any::Adapter::Core::Patch::SetDumperIndent -indent => 3;
 our $VERSION = '0.01'; # VERSION
 1;
@@ -9,7 +9,7 @@ __END__
 
 =head1 NAME
 
-Log::Any::DI1 - Shortcut for Log::Any::Adapter::Core::Patch::SetDumperIndent -indent => 3
+Log::Any::DI3 - Shortcut for Log::Any::Adapter::Core::Patch::SetDumperIndent -indent => 3
 
 =head1 VERSION
 
