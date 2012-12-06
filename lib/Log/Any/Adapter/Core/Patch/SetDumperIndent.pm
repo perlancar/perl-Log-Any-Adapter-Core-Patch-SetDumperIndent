@@ -66,4 +66,6 @@ easily.
 
 L<Log::Any::Adapter::Core::Patch::UseDataDump>
 
+L<Log::Any::Adapter::Core::Patch::UseDataDumperPerltidy>
+
 =cut
